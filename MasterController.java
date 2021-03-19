@@ -20,7 +20,6 @@ public class MasterController implements iController{
 
 	@Override
 	public void compute(String lines) {
-		System.out.println(System.currentTimeMillis());
 		String[] inputData = lines.split("\n");
 		for(int i = 0; i < inputData.length; i++){
 			if(inputData[i] != null && !inputData[i].isEmpty()){

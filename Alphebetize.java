@@ -9,7 +9,6 @@ public class Alphebetize implements iOutput{
 
 	private void sort(){
 		Collections.sort(sortedLines, new stringComparator());
-		System.out.println(System.currentTimeMillis());
 	}
 
 	public Alphebetize(){
