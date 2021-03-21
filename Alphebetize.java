@@ -5,7 +5,7 @@ import comparator.*;
 
 public class Alphebetize implements iOutput{
 
-	ArrayList<String> sortedLines;
+	private ArrayList<String> sortedLines;
 
 	private void sort(){
 		Collections.sort(sortedLines, new stringComparator());
