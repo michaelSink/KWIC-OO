@@ -28,6 +28,7 @@ public class CircularShift implements iOutput{
 		while(mod.hasNext()){
 			String data = mod.getLine();
 			csLines.add(data);
+			circularOutput += data + "\n";
 			String out = "";
 			String[] dataArray = data.split(" ");
 			for(int i = 1; i < dataArray.length; i++){

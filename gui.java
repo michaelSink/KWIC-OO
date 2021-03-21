@@ -40,6 +40,7 @@ class gui {
                controller.compute(ta.getText().trim());
                outputArea.setText(controller.getOutput());
                circularArea.setText(controller.getCircularOutput());
+               controller.resetNoiseWords();
             }
          });
 
